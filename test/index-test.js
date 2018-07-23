@@ -7,8 +7,10 @@
 }
     
   function yourAnimal(){
-     yourAnimal='cat';
-     return yourAnimal;
+     var yourAnimal='cat';
+     return function callAnimal(){
+      return  
+     }
 }
 describe('Fix the Scope', function() {
   describe('myAnimal()', function() {
