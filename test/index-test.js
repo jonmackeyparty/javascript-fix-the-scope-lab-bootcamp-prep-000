@@ -9,7 +9,7 @@
   function yourAnimal(){
      var yourAnimal='cat';
      return function callAnimal(){
-      return  
+      return yourAnimal 
      }
 }
 describe('Fix the Scope', function() {
