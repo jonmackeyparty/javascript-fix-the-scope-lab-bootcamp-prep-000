@@ -18,8 +18,8 @@ function add2(n) {
 }
   // Feel free to move things around!
   
-var funkyFunction = function outer() {
-  return function inner() {
+var funkyFunction = function() {
+  return function() {
     return "FUNKY!"
   }
 }
@@ -29,4 +29,4 @@ var funkyFunction = function outer() {
 
 
 
-var theFunk = funkTown
+var theFunk = funkyFunction()
