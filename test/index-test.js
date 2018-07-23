@@ -19,7 +19,7 @@ describe('Fix the Scope', function() {
       expect(window.yourAnimal.toString()).toNotContain("return 'cat'")
     })
   })
-var yourAnimal='cat';
+
 function yourAnimal(){
   return yourAnimal
 }
