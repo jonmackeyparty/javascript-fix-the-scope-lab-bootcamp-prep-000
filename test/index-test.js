@@ -2,8 +2,8 @@
 
 
  function myAnimal(){
-    var myAnimal='dog'
-    return myAnimal
+    var myAnimal='dog';
+    return myAnimal;
 }
 describe('Fix the Scope', function() {
   describe('myAnimal()', function() {
@@ -12,9 +12,8 @@ describe('Fix the Scope', function() {
     })
   })
 
-
+var yourAnimal='cat'
 function yourAnimal(){
-  var yourAnimal='cat'
   return yourAnimal
 }
   describe('yourAnimal()', function() {
