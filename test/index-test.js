@@ -20,9 +20,6 @@ describe('Fix the Scope', function() {
     })
   })
 
-function yourAnimal(){
-  return yourAnimal
-}
 
   describe('add2(n)', function() {
     it('adds two to n', function() {
