@@ -1,17 +1,6 @@
 /*global describe, it */
 
 
- function myAnimal(){
-    var myAnimal='dog';
-    return myAnimal
-}
-    
-  function yourAnimal(){
-     var yourAnimal='cat';
-     return function callAnimal(){
-      return yourAnimal 
-     }
-}
 describe('Fix the Scope', function() {
   describe('myAnimal()', function() {
     it('returns my animal', () => {
