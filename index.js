@@ -28,6 +28,6 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 
 
-var funkTown=funkyFunction();
+var funkTown=funkyFunction()
 var theFunk = funkTown()
   
