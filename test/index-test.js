@@ -32,11 +32,7 @@ function yourAnimal(){
       expect(window.add2(n)).toEqual(n + 2)
     })
   })
-function funkyFunction(){
-  var theFunk=funkyFunction(){
-    return (String)
-  }
-}
+
   describe('funkyFunction()', function() {
     it('returns a function', function() {
       expect(typeof window.funkyFunction()).toEqual('function')
