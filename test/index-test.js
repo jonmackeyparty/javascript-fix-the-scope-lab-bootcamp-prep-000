@@ -25,7 +25,9 @@ function yourAnimal(){
       expect(window.yourAnimal.toString()).toNotContain("return 'cat'")
     })
   })
-
+function add2(n){
+  return (n + 2)
+}
   describe('add2(n)', function() {
     it('adds two to n', function() {
       const n = Math.floor(Math.random() * 1000)
