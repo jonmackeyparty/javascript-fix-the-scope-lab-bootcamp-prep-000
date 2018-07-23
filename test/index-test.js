@@ -8,7 +8,7 @@
     
   function yourAnimal(){
      yourAnimal='cat';
-     return yourAnimal
+     return yourAnimal;
 }
 describe('Fix the Scope', function() {
   describe('myAnimal()', function() {
