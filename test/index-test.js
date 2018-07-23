@@ -34,7 +34,9 @@ function add2(n){
       expect(window.add2(n)).toEqual(n + 2)
     })
   })
-
+function funkyFunction(){
+  return 
+}
   describe('funkyFunction()', function() {
     it('returns a function', function() {
       expect(typeof window.funkyFunction()).toEqual('function')
