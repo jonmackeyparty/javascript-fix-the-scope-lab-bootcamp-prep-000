@@ -39,15 +39,7 @@ function add2(n){
     })
   })
 
-var theFunk=funkyFunction(){
-  return 'is FUNKY!'
-}
-function funkyFunction(){
-  var theFunk=funkyFunction(){
-  return 'is FUNKY!'
-}
-  return theFunk
-}
+
   describe('funkyFunction()', function() {
     it('returns a function', function() {
       expect(typeof window.funkyFunction()).toEqual('function')
