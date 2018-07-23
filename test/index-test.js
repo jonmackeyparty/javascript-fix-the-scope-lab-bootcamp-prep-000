@@ -40,6 +40,9 @@ var theFunk=funkyFunction(){
   return 'is FUNKY!'
 }
 function funkyFunction(){
+  var theFunk=funkyFunction(){
+  return 'is FUNKY!'
+}
   return theFunk
 }
   describe('funkyFunction()', function() {
