@@ -33,7 +33,9 @@ function yourAnimal(){
     })
   })
 function funkyFunction(){
-  var 
+  var theFunk=funkyFunction(){
+    return (String)
+  }
 }
   describe('funkyFunction()', function() {
     it('returns a function', function() {
