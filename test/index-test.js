@@ -27,7 +27,7 @@ describe('Fix the Scope', function() {
   })
 
 function add2(n){
-  return parseInt(n, 2) + 2
+  return parseInt('n', 2) + 2
 }
   describe('add2(n)', function() {
     it('adds two to n', function() {
