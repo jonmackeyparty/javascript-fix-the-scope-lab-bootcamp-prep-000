@@ -8,10 +8,8 @@ describe('Fix the Scope', function() {
     })
   })
 
-function yourAnimal(){
-  var yourAnimal='cat';
-  return yourAnimal
-}
+
+
   describe('yourAnimal()', function() {
     it('returns your animal', function(){
       expect(window.yourAnimal()).toEqual('cat')
@@ -22,6 +20,10 @@ function yourAnimal(){
     })
   })
 
+function yourAnimal(){
+  var yourAnimal='cat';
+  return yourAnimal
+}
 
   describe('add2(n)', function() {
     it('adds two to n', function() {
