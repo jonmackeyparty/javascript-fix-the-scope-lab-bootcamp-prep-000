@@ -26,7 +26,7 @@ function yourAnimal(){
     })
   })
 function add2(n){
-  return (n + 2)
+  return ('n' + 2)
 }
   describe('add2(n)', function() {
     it('adds two to n', function() {
