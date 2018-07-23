@@ -15,7 +15,7 @@ function yourAnimal() {
 function add2(n) {
   const two = 2
   return n + two
-
+}
   // Feel free to move things around!
   
 var funkyFunction = function() {
@@ -29,3 +29,5 @@ var funkyFunction = function() {
 // To pass this final test, you only need to modify the code below this line.
 
 var theFunk = funkyFunction()
+
+theFunk();
