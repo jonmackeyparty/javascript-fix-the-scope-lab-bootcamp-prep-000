@@ -20,7 +20,7 @@ function add2(n) {
   
 }
 
-var funkyFunction = theFunk() {
+var funkyFunction = t() {
     return "FUNKY!"
   
 }
