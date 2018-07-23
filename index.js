@@ -29,5 +29,5 @@ var funkyFunction = function() {
 
 
 var funkTown=funcyFunction();
-var theFunk = funkTown
+var theFunk = funkTown()
   
