@@ -12,8 +12,9 @@ describe('Fix the Scope', function() {
     })
   })
 
-
+var yourAnimal='dog'
 function yourAnimal(){
+  var yourAnimal='cat'
   return yourAnimal
 }
   describe('yourAnimal()', function() {
