@@ -19,7 +19,7 @@ function add2(n) {
   // Feel free to move things around!
   
 var funkyFunction = function outerFunk() {
-  return function() {
+  return function innerFunk() {
     return "FUNKY!"
   }
 }
@@ -28,4 +28,4 @@ var funkyFunction = function outerFunk() {
 // We want 'funkyFunction' on the line below to return a function that returns "FUNKY!" -- how can we accomplish that?
 // To pass this final test, you only need to modify the code below this line.
 
-var theFunk = funkyFunction
+var theFunk = innerFunk()
